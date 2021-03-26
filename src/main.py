@@ -17,7 +17,7 @@ if __name__ == "__main__":
     recovered_angle = recover_angle(normalized_angle)
 
     fig, ax = plt.subplots(ncols=1, nrows=2)
-    fig.suptitle("Angle Tracking")
+    fig.suptitle("Suivi d'angle")
     
     ax[0].plot(t, real_angle, label="Angle réel")
     ax[0].plot(t, normalized_angle, label="Angle normalisé")
